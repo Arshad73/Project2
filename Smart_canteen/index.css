@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(94, 64, 64);
+    
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .container h1{
+    padding-left: 40%;
+    padding-top: 200px;
+    font-family: "Audiowide", sans-serif;
+  }
+  .container p{
+    padding-left: 40%;
+    align-self: center;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    /*padding: 5px;*/
+  }
+  
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
